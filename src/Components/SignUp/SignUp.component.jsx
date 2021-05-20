@@ -46,7 +46,7 @@ class SignUp extends React.Component
                     <div className='form_input_block'>
                         <div className='input_label'>Mobile Number</div>
                         <input className='input_box' type='tel' value={this.state.mobile_no} onChange={this.handleChange} name='mobile_no' pattern="^\d{10}$" required></input>
-                        <div style={{fontSize:'0.8vw' , padding:'0px' ,margin:'0px', color:'grey' }}>Note: An OTP will be sent to your number for verification</div>
+                        <div style={{fontSize:'10px' , padding:'0px' ,margin:'0px', color:'grey' }}>Note: An OTP will be sent to your number for verification</div>
                     </div>
                     <div className='form_input_block'>
                         <div className='input_label'>Basic Salary Per Month (in Rupees)</div>

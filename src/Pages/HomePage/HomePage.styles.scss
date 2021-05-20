@@ -36,7 +36,8 @@
         box-sizing: border-box;
 
         @media only screen and (max-width:660px){
-            width: 100vw;
+            min-width: 100vw;
+            padding: 4% 10% 0 10%;
         }
     }
 }
