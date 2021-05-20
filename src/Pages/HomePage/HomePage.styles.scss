@@ -1,0 +1,42 @@
+.homepage 
+{
+    display: grid;
+    border-top: 1px solid gray;
+    box-shadow: 0 0 2px gray;
+    grid-template-columns:1fr 1fr ;
+
+    @media only screen and (max-width: 660px) {
+        grid-template-columns: 1fr;
+      }
+
+    .leftscreen 
+    {
+        box-sizing: border-box;
+        width: 50vw;
+        background-color: rgb(225, 232, 231);
+        padding: 2% 10% 0% 5%;
+
+        .hassyl_image 
+        {
+            display: flex;
+            padding-top:10vw;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width:660px){
+            width: 100vw;
+        }
+    }
+
+    .rightscreen 
+    {
+        width: 50vw;
+        min-width: 400px;
+        padding: 2% 25% 0% 25%;
+        box-sizing: border-box;
+
+        @media only screen and (max-width:660px){
+            width: 100vw;
+        }
+    }
+}
