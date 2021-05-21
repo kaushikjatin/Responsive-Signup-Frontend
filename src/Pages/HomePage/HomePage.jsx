@@ -15,7 +15,7 @@ class HomePage extends React.Component
                         <h3 style={{fontSize:'10px'}}>Each day of work adds value to your company.How much does it add to you?.Register now to find out.</h3>
                     </div>
                     <div className='hassyl_image'>
-                        <img src={hassyl_image} alt='Hassyl_Image' style={{width:'250px', borderRadius:'40px'}}></img>
+                        <img src={hassyl_image} alt='Hassyl_Image' style={{width:'250px', maxHeight:'440px', borderRadius:'40px'}}></img>
                     </div>
                     
                 </div>
